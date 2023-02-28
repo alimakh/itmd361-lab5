@@ -1,36 +1,49 @@
 body {
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
   }
   
-  h1#Title {
-    color: red;
+  #Title {
+    text-align: center;
+    color: #336699;
+    margin-top: 40px;
   }
   
-  th, td {
-    border: 1px solid black;
+  #planets {
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  #planets th, #planets td {
     padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
   }
   
-  th {
-    background-color: red;
-    color: black;
+  #planets th {
+    background-color: #336699;
+    color: #fff;
+    font-size: 20px;
   }
   
-  td.TitlePlanets {
-    font-weight: bold;
-  }
-  
-  .planetsimages {
-    width: 80px;
-    height: 80px;
-  }
-  
-  td:nth-child(odd) {
+  #planets tr:nth-child(even) {
     background-color: #f2f2f2;
   }
   
-  td:not(.TitlePlanets) {
-    text-align: center;
-    color: red;
+  .planetsimages {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .TitlePlanets {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .fact {
+    font-size: 18px;
   }
   
