@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: red;
   }
   
-  /* Page Styles */
+
   #Title {
     text-align: center;
     font-size: 3em;
