@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1#Title {
+    color: red;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: red;
+    color: black;
+  }
+  
+  td.TitlePlanets {
+    font-weight: bold;
+  }
+  
+  .planetsimages {
+    width: 80px;
+    height: 80px;
+  }
+  
+  td:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  td:not(.TitlePlanets) {
+    text-align: center;
+    color: red;
+  }
+  
